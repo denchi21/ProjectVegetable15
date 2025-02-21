@@ -12,18 +12,9 @@
  align-items: center;
 }
 
-.logo-link-svg-dots {
- width: 16px;
+.logo-link-svg {
+ width: 168px;
  height: 16px;
-}
-
-.logo-link-svg {
- width: 148px;
- height: 12px;
-}
-
-.logo-link-svg-dots,
-.logo-link-svg {
  fill: #FBFBFB;
 }
 
@@ -47,13 +38,27 @@
  cursor: pointer;
  border: 1px solid #FBFBFB;
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
+ text-decoration: none;
  color: #FFFFFF;
  font-size: 16px;
  font-weight: 500;
  line-height: 1.25;
  text-align: center;
  white-space: nowrap;
+}
+
+.header-menu-link:hover,
+.header-btn:hover {
+ background-color: #D4BFC4;
+ color: #7A3145;
+}
+
+.header-menu-link:active,
+.header-menu-link:focus,
+.header-btn:active,
+.header-btn:focus {
+ background-color: #FBFBFB;
+ color: #7A3145;
 }
 
 .header-btn {
@@ -78,16 +83,11 @@
 
 @media screen and (min-width: 768px) {
 
- .logo-link-svg-dots {
-   width: 20px;
-   height: 20px;
- }
-
- .logo-link-svg {
-   fill: #FBFBFB;
-   width: 187px;
-   height: 17px;
- }
+   .logo-link-svg {
+    width: 216px;
+    height: 20px;
+   }
+ 
 
  .header-menu-list {
    display: none;
@@ -96,8 +96,6 @@
  .header-btn {
    display: none;
  }
-
- .burger-btn {}
 
  .burger-icon {
    width: 40px;
@@ -156,11 +154,11 @@
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
    color: #FFFFFF;
-   font-size: 18px;
+   font-size: 17px;
    font-weight: 600;
    line-height: 1.11;
    letter-spacing: -0.015em;
-   text-align: left;
+   text-align: center;
    text-transform: uppercase;
  }
 
@@ -176,7 +174,8 @@
  top: 0;
  left: 0; 
  width: 100%; 
- height: 100%;
+ /* height: 100%; */
+ height: 100vh;
  background-color: #576F35;
 
  z-index: 1001;
@@ -196,15 +195,12 @@
 .mobile-menu-container {
  position: relative;
  padding-top: 296px;
- outline: 1px solid purple;
-
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
  height: 100%;
 }
-
 
 .mobile-menu-close {
  position: absolute;
@@ -274,8 +270,15 @@
 }
 
 .mobile-nav .mobile-menu-link:hover,
+.mobile-btn:hover {
+ color: #7A3145;
+ background-color: #D4BFC4;
+}
+
 .mobile-nav .mobile-menu-link:active,
-.mobile-nav .mobile-menu-link:focus {
+.mobile-nav .mobile-menu-link:focus,
+.mobile-btn:active,
+.mobile-btn:focus {
  color: #7A3145;
  background-color: #FBFBFB;
 }
@@ -294,7 +297,7 @@
  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
  color: #FFFFFF;
- font-size: 18px;
+ font-size: 17px;
  font-weight: 600;
  line-height: 1.11;
  letter-spacing: -0.015em;
@@ -335,4 +338,15 @@
  opacity: 1;
  visibility: visible;
 }
+}
+
+@media screen and (min-width: 1280px) {
+ .mobile-menu {
+   display: none;
+ }
+
+ .overlay.is-active {
+  opacity: 0;
+
+ }
 }
