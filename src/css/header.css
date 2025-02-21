@@ -1,103 +1,101 @@
 /* ------header------ */
 
 .header {
- background-color: #576F35;
- padding-top: 32px;
+  background-color: #576F35;
+  padding-top: 32px;
 }
 
 .wrapper-header {
- display: flex;
- justify-content: space-between;
- flex-direction: row;
- align-items: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo-link-svg-dots {
- width: 16px;
- height: 16px;
+  width: 16px;
+  height: 16px;
 }
 
 .logo-link-svg {
- width: 148px;
- height: 12px;
+  width: 148px;
+  height: 12px;
 }
 
 .logo-link-svg-dots,
 .logo-link-svg {
- fill: #FBFBFB;
+  fill: #FBFBFB;
 }
 
 .header-menu-list {
- display: none;
+  display: none;
 }
 
 .header-nav {
- display: flex;
- flex-direction: row;
- align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .header-menu-link {
- display: block;
- min-width: 104px;
- height: 44px;
- padding: 12px;
- border-radius: 12px;
- background-color: transparent;
- cursor: pointer;
- border: 1px solid #FBFBFB;
- transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: block;
+  min-width: 104px;
+  height: 44px;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #FBFBFB;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
- color: #FFFFFF;
- font-size: 16px;
- font-weight: 500;
- line-height: 1.25;
- text-align: center;
- white-space: nowrap;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
 }
 
 .header-btn {
- display: none;
+  display: none;
 }
 
 .burger-btn {
- display: block;
- padding: 0;
- border: none;
- background-color: transparent;
+  display: block;
+  padding: 0;
+  border: none;
+  background-color: transparent;
 }
 
 .burger-icon {
- display: block;
- stroke: #FBFBFB;
- width: 32px;
- height: 32px;
+  display: block;
+  stroke: #FBFBFB;
+  width: 32px;
+  height: 32px;
 }
 
 /* ------width: 768px------ */
 
 @media screen and (min-width: 768px) {
 
- .logo-link-svg-dots {
-   width: 20px;
-   height: 20px;
- }
+.logo-link-svg-dots {
+  width: 20px;
+  height: 20px;
+}
 
- .logo-link-svg {
-   fill: #FBFBFB;
-   width: 187px;
-   height: 17px;
- }
+.logo-link-svg {
+  fill: #FBFBFB;
+  width: 187px;
+  height: 17px;
+}
 
- .header-menu-list {
-   display: none;
- }
+.header-menu-list {
+  display: none;
+}
 
  .header-btn {
    display: none;
  }
-
- .burger-btn {}
 
  .burger-icon {
    width: 40px;
