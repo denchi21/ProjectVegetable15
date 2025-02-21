@@ -1,11 +1,11 @@
 {
-  "name": "pgoit-html-css-116-15",
+  "name": "projectvegetable15",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/pgoit-html-css-116-15/",
+    "build": "vite build --base=/projectvegetable15/",
     "preview": "vite preview"
   },
   "devDependencies": {
