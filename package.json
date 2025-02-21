@@ -1,11 +1,11 @@
 {
-  "name": "vanilla-app-template",
+  "name": "projectgoit-html-css-116-15",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/projectgoit-html-css-116-15/",
     "preview": "vite preview"
   },
   "devDependencies": {
