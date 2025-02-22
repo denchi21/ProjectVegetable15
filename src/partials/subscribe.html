@@ -1,0 +1,70 @@
+<div class="modal-content"></div>
+  <button id="openModal1btn" class="btn">Stay Updated & Save
+    <svg class="backdrop-button" width="40" height="40">
+        <use href="../img/icons-subscribe.svg#icon-btn"></use>
+    </svg>
+  </button>
+  <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <div class="image-container">
+        <div class="images">
+        <pictures>
+        <source
+        media="(min-width: 1158px)"
+        srcset="./img/subscribe/pic desktop+tablet-min.jpg 1x,
+                ./img/subscribe/pic desktop+tablet@2x-min.jpg 2x"/>
+        <source
+        media="(min-width: 768px)"
+        srcset="./img/subscribe/pic desktop+tablet-min.jpg 1x,
+                ./img/subscribe/pic desktop+tablet@2x-min.jpg 2x"/>
+        <source
+        media="(max-width: 767px)"
+        srcset="./img/subscribe/Image-mob 1-min.jpg 1x,
+                ./img/subscribe/Image-mob 1@2x-min.jpg 2x"/>
+        <img
+        src="../img/subscribe/pic desktop+tablet-min.jpg"
+        alt="vegetables"
+        width: 431
+        height: 201.62px
+        />
+        </pictures>
+        </div>
+      </div>
+      <div class="modal-container">
+      <h2 class="modal-title">📩 STAY UPDATED<span class="green-text">& SAVE!</span></h2>
+      <p class="modal-description">
+        Subscribe to our newletter and get <span class="highlight-text">exclusive discounts, fresh recipes, and the latest updates</span> on our organic vegetables baskets!
+      </p>
+      </div>
+      <form class="modal-form">
+        <div class="modal-input-container">
+        <p class="modal-email-text">Your email</p>
+        <input type="email" class="modal-input" placeholder="Your email" required />
+        <button type="submit" class="modal-button">
+            <span class="modal-button-text">Subscribe</span>
+        </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    /*Відкриття і закриття модального вікна*/
+    const modal = document.getElementById('myModal');
+    const btn = document.getElementById('openModalBtn');
+    const span = document.getElementsByClassName('close')[0];
+
+    btn.onclick = function () {
+      modal.style.display = 'block';
+    };
+
+    span.onclick = function () {
+      modal.style.display = 'none';
+    };
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = 'none';
+      }
+    };
+  </script>
