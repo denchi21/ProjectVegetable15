@@ -1,0 +1,43 @@
+.works-wrap{
+display: flex;
+    
+}
+
+.works-foto{
+background-color: #7A3145;
+width: 640px;
+padding: 100px;
+}
+
+.works-describe{
+background-color: #576F35;
+width: 640px;
+padding: 100px;
+    
+}
+
+.works-text{
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+color: #FBFBFB;
+}
+
+.works-foto-image{
+border-radius: 30px;
+}
+
+.works-title{
+max-width: 440px;       
+font-weight: 600;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: -0.01em;
+text-transform: uppercase;
+color: #FBFBFB;
+margin-bottom: 24px;
+}
+
+.works-accent{
+color: #D4BFC4;
+}
