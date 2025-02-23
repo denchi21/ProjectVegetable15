@@ -51,6 +51,7 @@ margin-right: auto;
     letter-spacing: -0.015em;
     text-transform: uppercase;
     color: #FBFBFB;
+    margin-bottom: 20px;
 }
 
 .p-hero {
@@ -65,6 +66,7 @@ margin-right: auto;
     .text-organic-hero {
         line-height: 1;
         font-size: 76px;
+        margin-bottom: 24px;
     }
 
     .p-hero {
