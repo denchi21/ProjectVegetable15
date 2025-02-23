@@ -62,7 +62,11 @@ margin-right: auto;
     color: #FBFBFB;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
+
+    .container-hero {
+        padding: 0;
+    }
     
     .text-organic-hero {
         line-height: 1;
