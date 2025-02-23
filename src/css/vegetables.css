@@ -3,8 +3,6 @@
   padding-top: 80px;
   padding-bottom: 80px;
 }
-.container {
-}
 .vegetables-title {
   font-weight: 600;
   font-size: 44px;
@@ -52,8 +50,6 @@
   line-height: 1.25;
   color: #141414;
   margin-bottom: 12px;
-}
-.image-vegetables {
 }
 
 @media screen and (min-width: 768px) {
