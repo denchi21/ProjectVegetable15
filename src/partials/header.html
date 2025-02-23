@@ -1,5 +1,63 @@
+<!-- header -->
 <header class="header">
-  <div class="container">Header
-    
+  <div class="container wrapper-header">
+    <div class="logo-wrapper">
+      <a class="logo-link" href="./index.html">
+        <svg class="logo-link-svg">
+          <use href="/img/icons.svg#icon-logo"></use>
+        </svg>
+      </a>
+    </div>
+
+    <nav class="header-nav">
+      <ul class="header-menu-list">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="#works">How It Works</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="">Vegetables</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="">Reviews</a>
+        </li>
+      </ul>
+      <button class="header-btn" type="button">Shop now</button>
+    </nav>
+
+    <button class="burger-btn" type="button" data-menu-open>
+      <svg class="burger-icon">
+        <use href="/img/icons.svg#icon-burger"></use>
+      </svg>
+    </button>
   </div>
+
+  <!-- mobile menu -->
+  <div class="mobile-menu" data-menu>
+    <div class="container mobile-menu-container">
+      <button class="mobile-menu-close" type="button" data-menu-close>
+        <svg class="mobile-closed-svg" width="32" height="32">
+          <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-nav">
+        <ul class="mobile-menu-list">
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link active-link" href="./index.html"
+              >How It Works</a
+            >
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="#vegetables-section">Vegetables</a>
+          </li>
+          <li class="mobile-menu-item">
+            <a class="mobile-menu-link" href="">Reviews</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="mobile-btn" type="button">Shop now</button>
+    </div>
+  </div>
+
+  <!-- Затемняющий оверлей -->
+  <div class="overlay" data-overlay></div>
 </header>
