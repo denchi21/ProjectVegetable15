@@ -63,6 +63,7 @@ margin-right: auto;
 }
 
 @media (min-width: 768px) {
+    
     .text-organic-hero {
         line-height: 1;
         font-size: 76px;
