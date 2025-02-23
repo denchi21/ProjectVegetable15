@@ -20,7 +20,7 @@
   flex-direction: column;
   text-align: right;
   top: 250px;
-  left: 265px;
+  left: 261px;
   gap: 32px;
   max-width: 600px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -128,7 +128,7 @@
 .modal-container {
   display: flex;
   flex-direction: column;
-  width: 431px;
+  width: 423px;
   height: 108px;
   gap: 16px;
 }
@@ -249,10 +249,10 @@
   }
 
   .modal-content {
-    width: 519px;
-    height: 529.62px;
+    width: 522px;
+    height: 501px;
     top: 250px;
-    left: 250px;
+    left: 261px;
     gap: 32px;
   }
 
@@ -279,7 +279,7 @@
   }
 
   .modal-close {
-    top: -0px;
+    top: -10px;
     right: -34px;
     background-color: transparent;
   }
