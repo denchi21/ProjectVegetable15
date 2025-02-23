@@ -55,6 +55,8 @@
   text-align: center;
   line-height: 32px;
   font-size: 32px;
+  height: 32px;
+  width: 423px;
 }
 
 .modal-description {
@@ -74,7 +76,7 @@
   border-radius: 30px;
   padding: 16px;
   font-size: 16px;
-  width: 265px;
+  width: 257px;
   height: 52px;
   border: 1px solid #858585;
 }
@@ -113,7 +115,7 @@
   height: 20px;
   font-size: 18px;
   line-height: 20px;
-  letter-spacing: -1.5%;
+  letter-spacing: 0px;
   color: #fbfbfb;
   text-align: center;
   display: flex;
@@ -137,6 +139,8 @@
   display: flex;
   justify-content: center;
   gap: 8px;
+  width: 423px;
+  height: auto;
 }
 
 .image-container {
@@ -163,7 +167,7 @@
 @media screen and (min-width: 1280px) {
   .modal-container {
     width: 431px;
-    height: auto;
+    height: 108px;
     gap: 16px;
   }
 
@@ -192,7 +196,7 @@
 
   .modal-description {
     font-size: 16px;
-    width: 422px;
+    width: 431px;
     height: 60px;
     line-height: 20px;
   }
@@ -220,24 +224,12 @@
   }
 
   .modal-content {
-    width: 529px;
+    width: 527px;
     height: 529.62px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .modal-container {
-    width: 423px;
-    height: auto;
-    gap: 16px;
-  }
-
-  .modal-input-container {
-    width: 423px;
-    height: auto;
-    gap: 8px;
-  }
-
   .image-container {
     width: 425px;
     height: 201.62px;
@@ -249,23 +241,9 @@
   }
 
   .modal-content {
-    width: 522px;
-    height: 529.62px;
     top: 250px;
     left: 261px;
     gap: 32px;
-  }
-
-  .modal-title {
-    width: 423px;
-    height: 32px;
-    font-size: 32px;
-    line-height: 32px;
-  }
-
-  .modal-input {
-    width: 257px;
-    height: 52px;
   }
 
   .modal-email-text {
@@ -364,7 +342,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 20px;
-    letter-spacing: -1.5%;
+    letter-spacing: 0px;
     margin: auto;
   }
 
