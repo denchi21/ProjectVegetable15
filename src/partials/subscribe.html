@@ -1,58 +1,61 @@
 <div class="backdrop is-open">
-  <div class="modal-content"></div>
-  <button id="openModal1btn" class="btn" data-modal-close>
-    <svg class="backdrop-button" width="40" height="40">
-      <use href="./img/icons-subscribe.svg#icon-btn"></use>
-    </svg>
-  </button>
-  <div id="myModal" class="modal">
-    <span class="close">&times;</span>
+  <div class="modal-content">
+    <button class="modal-close" type="button" data-modal-close>
+      <svg class="backdrop-button" width="40" height="40">
+        <use href="./img/icons.svg#icon-Component"></use>
+      </svg>
+    </button>
     <div class="image-container">
       <div class="images">
-        <pictures>
+        <picture>
           <source
             media="(min-width: 1158px)"
-            srcset="./img/subscribe/pic desktop+tablet-min.jpg 1x,
-                ./img/subscribe/pic desktop+tablet@2x-min.jpg 2x"
+            srcset="
+              ./img/subscribe/desk-min.jpg    1x,
+              ./img/subscribe/desk@2x-min.jpg 2x
+            "
           />
           <source
             media="(min-width: 768px)"
-            srcset="./img/subscribe/pic desktop+tablet-min.jpg 1x,
-                ./img/subscribe/pic desktop+tablet@2x-min.jpg 2x"
+            srcset="
+              ./img/subscribe/tab-min.jpg    1x,
+              ./img/subscribe/tab@2x-min.jpg 2x
+            "
           />
           <source
             media="(max-width: 767px)"
-            srcset="./img/subscribe/Image-mob 1-min.jpg 1x,
-                ./img/subscribe/Image-mob 1@2x-min.jpg 2x"
+            srcset="
+              ./img/subscribe/mob-min.jpg     1x,
+              ./img/subscribe/mob1@2x-min.jpg 2x
+            "
           />
-          <img src="../img/subscribe/pic desktop+tablet-min.jpg"
-          alt="vegetables" width: 431 height: 201.62px />
-        </pictures>
+          <img
+            src="./img/subscribe/desk-min.jpg"
+            class="modal-image"
+            alt="vegetables"
+            width="431"
+            height="201.62"
+          />
+        </picture>
       </div>
     </div>
     <div class="modal-container">
       <h2 class="modal-title">
-        📩 STAY UPDATED<span class="green-text">& SAVE!</span>
+        📩 STAY UPDATED<span class="green-text"> & SAVE!</span>
       </h2>
       <p class="modal-description">
-        Subscribe to our newletter and get
+        Subscribe to our newsletter and get
         <span class="highlight-text"
           >exclusive discounts, fresh recipes, and the latest updates</span
         >
-        on our organic vegetables baskets!
+        on our organic vegetable baskets!
       </p>
     </div>
     <form class="modal-form">
       <div class="modal-input-container">
-        <p class="modal-email-text">Your email</p>
-        <input
-          type="email"
-          class="modal-input"
-          placeholder="Your email"
-          required
-        />
+        <input type="email" class="modal-input" placeholder="Your Email" />
         <button type="submit" class="modal-button">
-          <span class="modal-button-text">Subscribe</span>
+          <span class="modal-button-text">SUBSCRIBE</span>
         </button>
       </div>
     </form>
