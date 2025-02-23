@@ -1,0 +1,68 @@
+/* Main container (Mobile version) */
+.advertisement {
+    display: block;
+    width: 100%;
+    max-width: 375px;
+    min-height: 472px;
+    padding: 80px 20px;
+    margin: 0 auto;
+}
+
+.advertisement-text {
+    display: block;
+    max-width: 335px;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 1.08333;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #0c0808;
+    text-align: left;
+}
+
+.advertisement-highlight {
+    display: inline-block;
+    background: #576f35;
+    color: #FFF;
+    border-radius: 12px;
+}
+
+/* Tablet version */
+@media (min-width: 768px) {
+    .advertisement {
+        max-width: 704px;
+        min-height: 288px;
+        padding: 80px 24px;
+    }
+
+    .advertisement-text {
+        font-size: 64px;
+        line-height: 1;
+        max-width: 704px;
+    }
+
+    .advertisement-highlight {
+        font-size: 64px;
+        padding-right: 7px;
+    }
+}
+
+/* Desktop version */
+@media (min-width: 1280px) {
+    .advertisement {
+        max-width: 1280px;
+        min-height: 228px;
+        padding: 100px;
+    }
+
+    .advertisement-text {
+        font-size: 76px;
+        max-width: 1044px;
+    }
+
+    .advertisement-highlight {
+        font-size: 76px;
+
+    }
+}
