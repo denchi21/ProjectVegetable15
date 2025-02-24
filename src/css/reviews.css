@@ -152,4 +152,8 @@
   .reviews-item-dt {
     display: flex;
   }
+
+  .reviews-cont-list {
+    width: 100%;
+  }
 }
