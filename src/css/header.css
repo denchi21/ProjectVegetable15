@@ -213,7 +213,7 @@
 .mobile-menu-close {
  position: absolute;
  top: 20px;
- right: 20px;
+ right: 27px;
  width: 32px;
  height: 32px;
  border: none;
@@ -235,7 +235,8 @@
 .mobile-nav {
  display: flex;
  flex-direction: column;
- padding: 296px auto 52px auto;
+ padding-top: 296px;
+ padding-bottom: 52px;
 }
 
 .mobile-nav .mobile-menu-link {
