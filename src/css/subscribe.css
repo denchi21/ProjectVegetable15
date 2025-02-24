@@ -32,7 +32,7 @@
 .modal-close {
   position: absolute;
   border: none;
-  top: 4px;
+  top: 10px;
   right: 8px;
   background: #7a3145;
   border-radius: 50%;
@@ -235,7 +235,7 @@
   }
 
   .modal-close {
-    top: 5px;
+    top: 10px;
     right: 8px;
   }
 
@@ -302,7 +302,7 @@
   }
 
   .modal-close {
-    top: 5px;
+    top: 10px;
     right: 8px;
   }
 
