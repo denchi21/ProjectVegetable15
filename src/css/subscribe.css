@@ -32,8 +32,8 @@
 .modal-close {
   position: absolute;
   border: none;
-  top: 6px;
-  right: 18px;
+  top: 8px;
+  right: 8px;
   background: #7a3145;
   border-radius: 50%;
   cursor: pointer;
@@ -184,7 +184,7 @@
   }
 
   .modal-title {
-    line-height: 35px;
+    line-height: 45px;
     font-size: 50px;
     height: 32px;
     width: 423px;
@@ -192,7 +192,7 @@
 
   .modal-description {
     width: 420px;
-    line-height: 20px;
+    line-height: 24px;
     font-size: 20px;
     height: 60px;
     position: absolute;
@@ -213,7 +213,7 @@
 
   .modal-content {
     top: 250px;
-    left: 261px;
+    left: 231px;
     gap: 32px;
     width: 460px;
     height: 580px;
@@ -232,7 +232,7 @@
 
   .modal-close {
     top: 8px;
-    right: 15px;
+    right: 8px;
   }
 
   .modal-input-container {
@@ -261,7 +261,7 @@
     height: 52px;
     flex-direction: row;
     position: absolute;
-    top: 470px;
+    top: 480px;
   }
 
   .image-container {
@@ -277,14 +277,16 @@
   }
 
   .modal-title {
-    font-size: 50px;
-    line-height: 37px;
+    font-size: 55px;
+    line-height: 45px;
     height: 32px;
     width: 431px;
+    position: absolute;
+    top: 265px;
   }
 
   .modal-description {
-    font-size: 21px;
+    font-size: 23px;
     width: 431px;
     height: 60px;
     line-height: 20px;
@@ -309,7 +311,7 @@
 
   .modal-close {
     top: 8px;
-    right: 15px;
+    right: 8px;
   }
 
   .modal-content {
@@ -317,6 +319,7 @@
     height: 590px;
     gap: 32px;
     padding: 40px 18px;
+    left: 233px;
   }
 }
 
