@@ -245,11 +245,14 @@
     .order-textarea::placeholder{
         font-size: 16px;
         line-height: 1.25;
+
     }
 
     .order-textarea{
-        padding-bottom: 60px;
         padding-right: 15px;
+        padding-bottom: 0px;
+        max-height: 96px;
+        
     }
 
     .order-field-comment {
