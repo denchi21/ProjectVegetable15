@@ -9,16 +9,16 @@
     justify-content: start; */
     gap: 20px;
 }
-
+/*
 .container {
     padding: 0;
     margin-left: auto;
     margin-right: auto;
 }
-
+*/
 .image-hero {
     width: 100%;
-    padding: 0;
+   /* padding: 0; */
 }
 
 .hero-container {
