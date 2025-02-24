@@ -32,8 +32,8 @@
 .modal-close {
   position: absolute;
   border: none;
-  top: 10px;
-  right: 8px;
+  top: 6px;
+  right: 18px;
   background: #7a3145;
   border-radius: 50%;
   cursor: pointer;
@@ -176,77 +176,6 @@
   position: absolute;
 }
 
-@media screen and (min-width: 1280px) {
-  .modal-container {
-    width: 431px;
-    height: 108px;
-    gap: 16px;
-  }
-
-  .modal-input-container {
-    width: 431px;
-    height: 52px;
-    flex-direction: row;
-    position: absolute;
-    top: 470px;
-  }
-
-  .image-container {
-    width: 431px;
-    height: 201.62px;
-  }
-
-  .images {
-    width: 431px;
-    height: 201.62px;
-    position: absolute;
-    top: 45px;
-  }
-
-  .modal-title {
-    font-size: 35px;
-    line-height: 50px;
-    height: 32px;
-    width: 431px;
-  }
-
-  .modal-description {
-    font-size: 20px;
-    width: 431px;
-    height: 60px;
-    line-height: 20px;
-    position: absolute;
-    top: 370px;
-  }
-
-  .modal-input {
-    width: 265px;
-    height: 52px;
-  }
-
-  .modal-email-text {
-    width: 233px;
-    height: 20px;
-  }
-
-  .modal-button {
-    width: 158px;
-    height: 52px;
-  }
-
-  .modal-close {
-    top: 10px;
-    right: 8px;
-  }
-
-  .modal-content {
-    width: 465px;
-    height: 590px;
-    gap: 32px;
-    padding: 40px 18px;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .modal-container {
     width: 423px;
@@ -302,8 +231,8 @@
   }
 
   .modal-close {
-    top: 10px;
-    right: 8px;
+    top: 8px;
+    right: 15px;
   }
 
   .modal-input-container {
@@ -317,6 +246,77 @@
   .modal-input {
     width: 257px;
     height: 52px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .modal-container {
+    width: 431px;
+    height: 108px;
+    gap: 16px;
+  }
+
+  .modal-input-container {
+    width: 431px;
+    height: 52px;
+    flex-direction: row;
+    position: absolute;
+    top: 470px;
+  }
+
+  .image-container {
+    width: 431px;
+    height: 201.62px;
+  }
+
+  .images {
+    width: 431px;
+    height: 201.62px;
+    position: absolute;
+    top: 45px;
+  }
+
+  .modal-title {
+    font-size: 50px;
+    line-height: 37px;
+    height: 32px;
+    width: 431px;
+  }
+
+  .modal-description {
+    font-size: 21px;
+    width: 431px;
+    height: 60px;
+    line-height: 20px;
+    position: absolute;
+    top: 370px;
+  }
+
+  .modal-input {
+    width: 265px;
+    height: 52px;
+  }
+
+  .modal-email-text {
+    width: 233px;
+    height: 20px;
+  }
+
+  .modal-button {
+    width: 158px;
+    height: 52px;
+  }
+
+  .modal-close {
+    top: 8px;
+    right: 15px;
+  }
+
+  .modal-content {
+    width: 465px;
+    height: 590px;
+    gap: 32px;
+    padding: 40px 18px;
   }
 }
 
