@@ -1,59 +1,74 @@
-/* Main container (Mobile version) */
+/* advertisement section */
 .advertisement {
-    display: block;
     width: 100%;
-    max-width: 375px;
-    min-height: 472px;
-    padding: 80px 20px;
+    box-sizing: border-box;
+    padding: 80px 0;
+
+}
+
+.advertisement-container {
+    width: 100%;
+    min-width: 320px;
+    padding: 0 20px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
 }
 
 .advertisement-text {
-    display: block;
     max-width: 335px;
+    color: #0c0808;
     font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 48px;
     line-height: 1.08333;
     letter-spacing: -0.01em;
     text-transform: uppercase;
-    color: #0c0808;
-    text-align: left;
+    display: inline-block;
 }
 
 .advertisement-highlight {
-    display: inline-block;
     background: #576f35;
     color: #FFF;
     border-radius: 12px;
+    display: inline-block;
+    padding: 2px 7px;
+    position: relative;
+    left: -9px;
 }
 
-/* Tablet version */
-@media (min-width: 768px) {
+/* TABLET */
+@media screen and (min-width: 768px) {
     .advertisement {
-        max-width: 704px;
-        min-height: 288px;
-        padding: 80px 24px;
+        padding: 100px 0;
+    }
+
+    .advertisement-container {
+        max-width: 768px;
+        padding-left: 0;
     }
 
     .advertisement-text {
         font-size: 64px;
+        letter-spacing: -0.01em;
         line-height: 1;
-        max-width: 704px;
+        max-width: 702px;
     }
 
     .advertisement-highlight {
-        font-size: 64px;
-        padding-right: 7px;
+        padding: 8px 10px;
+        position: relative;
+        left: -12px;
     }
 }
 
-/* Desktop version */
-@media (min-width: 1280px) {
-    .advertisement {
+/* DESKTOP */
+@media screen and (min-width: 1280px) {
+    .advertisement-container {
         max-width: 1280px;
-        min-height: 228px;
-        padding: 100px;
     }
 
     .advertisement-text {
@@ -62,7 +77,8 @@
     }
 
     .advertisement-highlight {
-        font-size: 76px;
-
+        padding: 8px 10px;
+        position: relative;
+        left: -13px;
     }
 }
