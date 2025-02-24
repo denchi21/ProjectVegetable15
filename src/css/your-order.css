@@ -309,11 +309,6 @@
         padding: 52px 48px;
     }
 
-
-    .order-btn:focus {
-
-    }
-
     .order-btn:hover{
         background-color:#d4bfc4;
         color: #7a3145;
