@@ -4,7 +4,7 @@
   flex-direction: column;
   color: #fbfbfb;
   background: #7a3145;
-  padding: 0 20px;
+  padding: 40px 20px 40px 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -45,7 +45,7 @@
 }
 
 .footer-info {
-  margin: 40px 0;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
@@ -150,10 +150,7 @@
 }
 
 .footer-bottom {
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 40px;
   color: rgba(251, 251, 251, 0.5);
   text-decoration: none;
   width: 100%;
@@ -179,6 +176,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-bottom: 16px;
 }
 
 .footer-policy-link {
