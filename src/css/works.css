@@ -14,9 +14,21 @@ padding: 0;
 }
 
 
+
 .works-describe {
     background-color: #576F35;
     padding: 80px 20px;
+
+.works-text{
+font-weight: 500;
+font-size: 16px;
+line-height: 125%;
+color: #FBFBFB;
+}
+
+.works-foto-image{
+border-radius: 30px;
+
 }
 
 .works-title{
