@@ -39,7 +39,6 @@
 
 .header-menu-link {
  display: block;
- min-width: 104px;
  height: 44px;
  padding: 12px;
  border-radius: 12px;
@@ -202,7 +201,6 @@
 
 .mobile-menu-container {
  position: relative;
- padding-top: 296px;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -306,6 +304,7 @@
  letter-spacing: -0.015em;
  text-align: left;
  text-transform: uppercase;
+ margin-bottom: 52px;
 }
 
 /* min-width: 768px */
@@ -340,6 +339,10 @@
 .overlay.is-active {
  opacity: 1;
  visibility: visible;
+}
+
+.mobile-btn {
+ margin-bottom: 48px;
 }
 }
 
