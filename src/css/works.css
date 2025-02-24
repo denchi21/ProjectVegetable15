@@ -106,10 +106,12 @@ color: #FBFBFB;
 
 @media screen and (min-width: 768px) {
     .works-foto {
+    min-width: 768px;
     padding: 100px 40px;
 }
 
 .works-describe {
+    min-width: 768px;
     padding: 100px 164px;
 }
 
@@ -130,6 +132,7 @@ color: #FBFBFB;
 }
 
 .works-steps-list-item{
+    max-width: 440px;
     margin-bottom: 24px;
 }
 
@@ -140,20 +143,22 @@ color: #FBFBFB;
 
 }
 
-
-
 @media screen and (min-width: 1280px) {
+.container{
+    padding: 0;
+}
+
 .works-wrap {
     display: flex;
     }
 
     .works-foto {
-    width: 640px;
+    min-width: 640px;
     padding: 100px;
     }
 
     .works-describe {
-    width: 640px;
+    min-width: 640px;
     padding: 100px;
     }
 
