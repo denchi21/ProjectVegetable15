@@ -17,25 +17,20 @@
                                 contact you !
                             </p>
                             <form class="order-form">
-                                <div class="order-field">
-                                    <label for="user-name" class="order-lable"></label>
-                                    <div class="input-wrap">
-                                        <input type="text" class="order-input" name="user-name"
-                                            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Full Name"
-                                            id="user-name">
-                                    </div>
+                                <div class="input-wrap">
+                                    <input type="text" class="order-input" name="name"
+                                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Full Name" 
+                                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
                                 </div>
-                                <div class="order-field">
-                                    <label for="user-email" class="order-lable"></label>
-                                    <div class="input-wrap">
-                                        <input type="email" class="order-input" name="user-name"
-                                            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" placeholder="Email"
-                                            id="user-email">
-                                    </div>
+                                
+                                
+                                <div class="input-wrap">
+                                    <input class="order-input" type="email" name="email" placeholder="Email"
+                                        pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" required>
                                 </div>
+                                
                                 <div class="order-field-comment">
-                                    <label for="user-comment" class="order-lable"></label>
-                                    <textarea name="user-comment" id="user-comment" class="order-textarea"
+                                    <textarea name="user-comment" class="order-textarea"
                                         placeholder="Comment"></textarea>
                                 </div>
                                 <button type="submit" class="order-btn">Send</button>

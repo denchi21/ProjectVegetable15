@@ -65,11 +65,16 @@
     color: #576f35;
 }
 
+.order-input::placeholder{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.43;
+        color: #141414;
+}
+
+
 .order-input{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.43;
-    color: #141414;
+
     border: 1px solid #858585;
     border-radius: 30px;
     width: 100%;
@@ -78,20 +83,37 @@
     padding-left: 16px;
 }
 
-.order-textarea{
+.order-input:focus{
+    border-color:1px solid #7a3145;
+}
+
+.order-input:not(:placeholder-shown):invalid {
+   border-color:  1px solid #e74a3b;
+}
+
+.order-input:not(:placeholder-shown):valid{
+    border-color: 1px solid #3cbc81;
+}
+
+.order-textarea::placeholder{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.43;
     color: #141414;
+}
+
+.order-textarea{
     border: 1px solid #858585;
     border-radius: 15px;
     width: 100%;
     padding-top: 16px;
     padding-bottom: 56px;
     padding-left: 16px;
+    resize: none;
+
 }
 
-.order-field{
+.input-wrap{
     margin-bottom: 16px;
 }
 
@@ -112,6 +134,13 @@
     padding-top: 16px;
     padding-bottom: 16px;
 }
+
+.order-btn:hover,
+.order-btn:focus{
+    background-color: #fbfbfb;
+    color: #7a3145;
+}
+
 
 
 
@@ -152,6 +181,11 @@
     color: #fbfbfb;
     text-decoration: none;
 }
+
+.socials-link:hover{
+    text-decoration: underline;
+}
+
 
 
 @media screen and (min-width: 768px) {
@@ -195,17 +229,24 @@
         margin-bottom: 52px;
     }
 
-    .order-input{
+    .order-input::placeholder{
         font-size: 16px;
         line-height: 1.25;
+    }
+    
+    .order-input{
         padding-top: 16px;
         padding-bottom: 16px;
         padding-left: 14px;
     }
 
-    .order-textarea{
+
+    .order-textarea::placeholder{
         font-size: 16px;
         line-height: 1.25;
+    }
+
+    .order-textarea{
         padding-bottom: 60px;
         padding-right: 15px;
     }
@@ -213,6 +254,8 @@
     .order-field-comment {
         margin-bottom: 24px;
     }
+
+
 
     .block{
         padding-right: 52px;
@@ -264,6 +307,21 @@
 
     .order-list-box {
         padding: 52px 48px;
+    }
+
+
+    .order-btn:focus {
+
+    }
+
+    .order-btn:hover{
+        background-color:#d4bfc4;
+        color: #7a3145;
+        cursor: pointer;
+    }
+
+    .order-btn:focus{
+        background-color: #fbfbfb;
     }
 
     .block{
