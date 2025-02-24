@@ -1,11 +1,3 @@
-img {
-    width: 100%;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
-}
-
 .hero-info {
     padding: 48px 20px 40px 20px;
     background-color: #576F35;
@@ -19,13 +11,9 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .container {
-
-padding: 0;
-
-margin-left: auto;
-
-margin-right: auto;
-
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .image-hero {
@@ -41,6 +29,7 @@ margin-right: auto;
     min-width: 320px;
     max-width: 375px;
     padding-bottom: 300px;
+    margin: 0 auto
 }
 
 .text-organic-hero {
@@ -62,7 +51,11 @@ margin-right: auto;
     color: #FBFBFB;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
+
+    .container-hero {
+        padding: 0;
+    }
     
     .text-organic-hero {
         line-height: 1;

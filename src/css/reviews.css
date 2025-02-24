@@ -30,6 +30,12 @@
 .reviews-title-color {
   color: #576f35;
 }
+
+.reviews-cont-image {
+  border-radius: 50%;
+  width: 56px;
+}
+
 .reviews-title-text {
   font-weight: 500;
   font-size: 14px;
@@ -145,5 +151,9 @@
 
   .reviews-item-dt {
     display: flex;
+  }
+
+  .reviews-cont-list {
+    width: 100%;
   }
 }
