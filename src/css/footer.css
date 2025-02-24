@@ -5,7 +5,24 @@
   color: #fbfbfb;
   background: #7a3145;
   padding: 0 20px;
-  justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 0;
+  }
+}
+
+.footer-container {
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    padding: 32px;
+    justify-content: space-between;
+  }
 }
 
 .footer a {
@@ -21,10 +38,13 @@
   margin: 40px 0;
 }
 
+@media screen and (min-width: 768px) {
+  .footer-info {
+    margin: 0;
+  }
+}
+
 .footer-logo {
-  width: 168px;
-  height: 16px;
-  margin-left: 0;
   fill: #fbfbfb;
 }
 
@@ -32,8 +52,6 @@
   margin-bottom: 25px;
   width: 168px;
   height: 16px;
-  margin-left: 0;
-  color: #fbfbfb;
 }
 
 .footer-text {
@@ -41,7 +59,15 @@
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0%;
-  max-width: 265px;
+  min-width: 335px;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-text {
+    min-width: unset;
+    max-width: 265px;
+  }
 }
 
 .footer-menu {
@@ -67,8 +93,7 @@
   text-decoration: underline;
 }
 
-.contact {
-  margin-bottom: 136px;
+.footer-contact {
   width: 179px;
   font-weight: 600;
   font-size: 14px;
@@ -77,11 +102,11 @@
   text-decoration: none;
 }
 
-.contact address {
+.footer-contact address {
   font-style: normal;
 }
 
-.contact a {
+.footer-contact a {
   display: inline-block;
   margin-bottom: 14px;
 }
@@ -90,38 +115,37 @@
   margin-bottom: 14px;
 }
 
-.footer-block {
+.footer-bottom {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
-  gap: 8px;
   color: rgba(251, 251, 251, 0.5);
   text-decoration: none;
 }
 
-.footer-links {
+.footer-policy {
   display: flex;
   align-items: center;
   gap: 8px;
 }
 
-.footer-link {
+.footer-policy-link {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.333;
   letter-spacing: -0.18px;
 }
 
-.footer-link:first-child {
+.footer-policy-link:first-child {
   margin-right: 0;
 }
 
-.footer-blay {
+.footer-separator {
   font-weight: 500;
   font-size: 12px;
 }
 
-.copyright {
+.footer-copyright {
   font-size: 12px;
   font-weight: 500;
   line-height: 1.167;
@@ -129,9 +153,9 @@
   margin-left: auto;
 }
 
-.footer-link,
-.footer-blay,
-.copyright {
+.footer-policy-link,
+.footer-separator,
+.footer-copyright {
   text-decoration: none;
   color: rgba(251, 251, 251, 0.5) !important;
   white-space: nowrap;
