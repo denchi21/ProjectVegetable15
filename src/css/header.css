@@ -2,7 +2,7 @@
 
 .header {
   background-color: #576F35;
-  padding-top: 32px;
+  padding-top: 20px;
 }
 
 .wrapper-header {
@@ -39,7 +39,6 @@
 
 .header-menu-link {
  display: block;
- min-width: 104px;
  height: 44px;
  padding: 12px;
  border-radius: 12px;
@@ -91,6 +90,10 @@
 /* ------width: 768px------ */
 
 @media screen and (min-width: 768px) {
+
+  .header {
+   padding-top: 32px;
+ }
 
    .logo-link-svg {
     width: 216px;
@@ -202,7 +205,6 @@
 
 .mobile-menu-container {
  position: relative;
- padding-top: 296px;
  display: flex;
  flex-direction: column;
  justify-content: center;
@@ -213,7 +215,7 @@
 .mobile-menu-close {
  position: absolute;
  top: 20px;
- right: 27px;
+ right: 25px;
  width: 32px;
  height: 32px;
  border: none;
@@ -306,6 +308,7 @@
  letter-spacing: -0.015em;
  text-align: left;
  text-transform: uppercase;
+ margin-bottom: 52px;
 }
 
 /* min-width: 768px */
@@ -316,6 +319,11 @@
    right: -351px;
    left: auto;
    transition: right 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .mobile-menu-close {
+  top: 35px;
+  right: 35px;
  }
 
  .mobile-menu.is-open {
@@ -340,6 +348,10 @@
 .overlay.is-active {
  opacity: 1;
  visibility: visible;
+}
+
+.mobile-btn {
+ margin-bottom: 48px;
 }
 }
 
