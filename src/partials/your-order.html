@@ -1,114 +1,122 @@
 <!--your-order-->
-<div class="your-order" id="your-order">
-  <div class="container order-container">
-    <div class="order-title-box">
-      <h2 class="order-title">
-        Fresh <span class="title-part">Harvest</span> Box has got you covered
-      </h2>
-      <p class="order-paragraph">
-        Our boxes are packed with delicious, nutritious vegetables, perfect for
-        anyone looking to eat healthier or support local farmers. Order your box
-        today and start enjoying the best that nature has to offer!
-      </p>
-    </div>
-    <div class="order-merger">
-      <div class="order-list-box">
-        <div class="tabl-box">
-          <p class="tabl-paragraph">
-            Ordering <span class="paragraph-part">from us</span> is quick and
-            easy! Fill out <span class="paragraph-dbpart">the form</span> below
-            and we will contact you !
-          </p>
-          <form class="order-form">
-            <div class="input-wrap">
-              <input
-                type="text"
-                class="order-input"
-                name="name"
-                placeholder="Full Name"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                required
-              />
-            </div>
 
-            <div class="input-wrap">
-              <input
-                class="order-input"
-                type="email"
-                name="email"
-                placeholder="Email"
-                pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-                required
-              />
-            </div>
-
-            <div class="order-field-comment">
-              <textarea
-                name="user-comment"
-                class="order-textarea"
-                placeholder="Comment"
-              ></textarea>
-            </div>
-            <button type="submit" class="order-btn">Send</button>
-          </form>
-        </div>
+<section>
+  <div class="your-order">
+    <div class="container order-container">
+      <div class="order-title-box">
+        <h2 class="order-title">
+          Fresh <span class="title-part">Harvest</span> Box has got you covered
+        </h2>
+        <p class="order-paragraph">
+          Our boxes are packed with delicious, nutritious vegetables, perfect
+          for anyone looking to eat healthier or support local farmers. Order
+          your box today and start enjoying the best that nature has to offer!
+        </p>
       </div>
-      <div class="block">
-        <div class="order-photo">
-          <picture class="order-photo">
-            <source
-              media="(min-width: 1280px)"
-              srcset="
-                /img/your-order/rectangle_comp1x.jpg 1x,
-                /img/your-order/rectangle_comp2x.jpg 2x
-              "
-            />
-            <source
-              media="(min-width: 768px)"
-              srcset="
-                /img/your-order/rectangle_tabl1x-min.jpg 1x,
-                /img/your-order/rectangle_tabl2x-min.jpg 2x
-              "
-            />
-            <source
-              media="(max-width: 767px)"
-              srcset="
-                /img/your-order/rectangle_mob1x-min.jpg 1x,
-                /img/your-order/rectangle_mob2x-min.jpg 2x
-              "
-            />
-            <img
-              class="order-photo"
-              src="/img/your-order/rectangle_comp1x.jpg"
-              alt="girl"
-            />
-          </picture>
-        </div>
+      <div class="order-merger" id="your-order">
+        <div class="order-list-box">
+          <div class="tabl-box">
+            <p class="tabl-paragraph">
+              Ordering <span class="paragraph-part">from us</span> is quick and
+              easy! Fill out
+              <span class="paragraph-dbpart">the form</span> below and we will
+              contact you !
+            </p>
+            <form class="order-form">
+              <div class="input-wrap">
+                <input
+                  type="text"
+                  class="order-input"
+                  name="name"
+                  placeholder="Full Name"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  required
+                />
+              </div>
 
-        <!--<img class="order-photo" srcset="/img/your-order/rectangle_comp1x.jpg 1x, /img/your-order/rectangle_comp2x.jpg 2x" src="/img/your-order/rectangle_comp1x.jpg" alt="Photo girl">-->
-        <div class="ordes-socials-block">
-          <p class="socials-paradraph">Follow us on our social networks:</p>
-          <ul class="socials-box">
-            <li class="socials-item">
-              <a class="socials-link" href="https://www.instagram.com/goitclub/"
-                >instagram</a
-              >
-            </li>
-            <li class="slash">/</li>
-            <li class="socials-item">
-              <a class="socials-link" href="https://www.facebook.com/goITclub/"
-                >facebook</a
-              >
-            </li>
-            <li class="slash">/</li>
-            <li class="socials-item">
-              <a class="socials-link" href="https://www.youtube.com/c/GoIT"
-                >youtube</a
-              >
-            </li>
-          </ul>
+              <div class="input-wrap">
+                <input
+                  class="order-input"
+                  type="email"
+                  name="email"
+                  placeholder="Email"
+                  pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+                  required
+                />
+              </div>
+
+              <div class="order-field-comment">
+                <textarea
+                  name="user-comment"
+                  class="order-textarea"
+                  placeholder="Comment"
+                ></textarea>
+              </div>
+              <button type="submit" class="order-btn">Send</button>
+            </form>
+          </div>
+        </div>
+        <div class="block">
+          <div class="order-photo">
+            <picture class="order-photo">
+              <source
+                media="(min-width: 1280px)"
+                srcset="
+                  /img/your-order/rectangle_comp1x.jpg 1x,
+                  /img/your-order/rectangle_comp2x.jpg 2x
+                "
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  /img/your-order/rectangle_tabl1x-min.jpg 1x,
+                  /img/your-order/rectangle_tabl2x-min.jpg 2x
+                "
+              />
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  /img/your-order/rectangle_mob1x-min.jpg 1x,
+                  /img/your-order/rectangle_mob2x-min.jpg 2x
+                "
+              />
+              <img
+                class="order-photo"
+                src="/img/your-order/rectangle_comp1x.jpg"
+                alt="girl"
+              />
+            </picture>
+          </div>
+
+          <!--<img class="order-photo" srcset="/img/your-order/rectangle_comp1x.jpg 1x, /img/your-order/rectangle_comp2x.jpg 2x" src="/img/your-order/rectangle_comp1x.jpg" alt="Photo girl">-->
+          <div class="ordes-socials-block">
+            <p class="socials-paradraph">Follow us on our social networks:</p>
+            <ul class="socials-box">
+              <li class="socials-item">
+                <a
+                  class="socials-link"
+                  href="https://www.instagram.com/goitclub/"
+                  >instagram</a
+                >
+              </li>
+              <li class="slash">/</li>
+              <li class="socials-item">
+                <a
+                  class="socials-link"
+                  href="https://www.facebook.com/goITclub/"
+                  >facebook</a
+                >
+              </li>
+              <li class="slash">/</li>
+              <li class="socials-item">
+                <a class="socials-link" href="https://www.youtube.com/c/GoIT"
+                  >youtube</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>

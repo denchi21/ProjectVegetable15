@@ -107,10 +107,11 @@
     border: 1px solid #858585;
     border-radius: 15px;
     width: 100%;
-    padding-top: 16px;
+    padding-top: 12px;
     padding-bottom: 56px;
     padding-left: 16px;
     resize: none;
+    max-height: 92px;
 
 }
 
@@ -250,7 +251,6 @@
 
     .order-textarea{
         padding-right: 15px;
-        padding-bottom: 0px;
         max-height: 96px;
         
     }
