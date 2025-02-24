@@ -116,8 +116,7 @@
 @media screen and (min-width: 1280px) {
 
  .header {
-   /* background-color: transparent; */
-   background-color: #576F35;
+   background-color: transparent;
    padding-top: 0px;
    position: absolute;
    top: 0;
@@ -126,6 +125,7 @@
    transform: translateY(32px);
    z-index: 2;
  } 
+
  .wrapper-header {
    justify-content: space-between;
    flex-direction: row;
