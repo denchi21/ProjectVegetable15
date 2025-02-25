@@ -35,7 +35,6 @@
 
 .order-merger {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 40px;
@@ -81,19 +80,21 @@
     padding-top: 14px;
     padding-bottom: 14px;
     padding-left: 16px;
+    outline: none;
 }
 
 .order-input:focus{
-    border-color:1px solid #7a3145;
+    border-color: #7a3145;
 }
 
 .order-input:not(:placeholder-shown):invalid {
-   border-color:  1px solid #e74a3b;
+   border-color: #e74a3b;
 }
 
 .order-input:not(:placeholder-shown):valid{
-    border-color: 1px solid #3cbc81;
+    border-color: #3cbc81;
 }
+
 
 .order-textarea::placeholder{
     font-weight: 500;
@@ -110,7 +111,7 @@
     padding-bottom: 56px;
     padding-left: 16px;
     resize: none;
-
+    outline: none;
 }
 
 .input-wrap{
@@ -133,6 +134,7 @@
     background-color: #7a3145;
     padding-top: 16px;
     padding-bottom: 16px;
+    border: none;
 }
 
 .order-btn:hover,
@@ -152,7 +154,7 @@
 
 .order-photo {
     border-radius: 15px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     background-color: #7a3145;
 }
 
@@ -249,7 +251,7 @@
 
     .order-textarea{
         padding-right: 15px;
-        padding-bottom: 0px;
+        padding-bottom: 60px;
         max-height: 96px;
         
     }
@@ -295,9 +297,6 @@
         padding: 0;
     }
 
-    .order-form{
-        min-height: 308px;
-    }
 
     .tabl-paragraph{
         letter-spacing: -0.07em
@@ -334,8 +333,6 @@
     .socials-box{
         padding-right: 78px;
     }
-
-
 
 }
 
