@@ -9,7 +9,6 @@
 .advertisement-container {
     width: 100%;
     min-width: 320px;
-    padding: 0 20px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -79,11 +78,7 @@
         min-height: 228px;
         padding: 0;
     }
-    .advertisement-container {
-        padding-top: 100px;
-        padding-bottom: 100px;
 
-    }
     .advertisement-text {
         font-size: 76px;
         max-width: 1044px;
