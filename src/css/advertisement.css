@@ -50,6 +50,13 @@
         max-width: 768px;
         padding-left: 0;
     }
+}  
+/* Tablet version */
+
+@media (min-width: 768px) {
+    .advertisement-container {
+        min-width: 704px;
+    }
 
     .advertisement-text {
         font-size: 64px;
@@ -69,8 +76,14 @@
 @media screen and (min-width: 1280px) {
     .advertisement-container {
         max-width: 1280px;
+        min-height: 228px;
+        padding: 0;
     }
+    .advertisement-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
 
+    }
     .advertisement-text {
         font-size: 76px;
         max-width: 1044px;
