@@ -70,7 +70,8 @@ padding-left: 0;
 margin: 0;
 }
 
-.works-steps-list-item {min-width: 335px;
+.works-steps-list-item {
+max-width: 375px;
 min-height: 76px;
 border-radius: 15px;
 margin-bottom: 20px;
