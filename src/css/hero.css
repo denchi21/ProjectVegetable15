@@ -1,24 +1,16 @@
+.container-hero {
+    background-color: #576F35;
+}
+
 .hero-info {
     padding: 48px 20px 40px 20px;
-    background-color: #576F35;
     min-width: 320px;
     max-width: 375px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: start; */
     gap: 20px;
 }
-/*
-.container {
-    padding: 0;
-    margin-left: auto;
-    margin-right: auto;
-}
-*/
+
 .image-hero {
     width: 100%;
-   /* padding: 0; */
 }
 
 .hero-container {
@@ -33,7 +25,6 @@
 }
 
 .text-organic-hero {
-    font-family: "Inter Tight", sans-serif;
     font-weight: 600;
     font-size: 45px;
     line-height: 1;
@@ -44,7 +35,6 @@
 }
 
 .p-hero {
-    font-family: "Inter Tight", sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.42;
