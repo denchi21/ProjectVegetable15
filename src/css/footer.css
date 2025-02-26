@@ -1,0 +1,287 @@
+/* Контейнер Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  color: #fbfbfb;
+  background: #7a3145;
+  padding: 40px 20px 40px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
+    padding: 52px 100px;
+  }
+}
+
+.footer-container {
+  margin-bottom: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    display: flex;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    gap: 250px;
+    margin-bottom: 124px;
+  }
+}
+
+.footer a {
+  color: #fbfbfb;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: none;
+}
+
+.footer-info {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-info {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-info {
+    gap: 100px;
+  }
+}
+
+.footer-logo {
+  fill: #fbfbfb;
+}
+
+.footer-logo-icon {
+  margin-bottom: 14px;
+  width: 168px;
+  height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-logo-icon {
+    margin-bottom: 24px;
+  }
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: normal;
+  min-width: 335px;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-text {
+    min-width: unset;
+    max-width: 265px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: normal;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-content {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-content {
+    display: flex;
+    margin: 0;
+    gap: 121px;
+  }
+}
+
+.footer-info-next {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-info-next {
+    margin: 0;
+  }
+}
+
+.footer-menu {
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-menu {
+    margin-bottom: 64px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer-menu {
+    margin: 0;
+  }
+}
+
+.footer-item {
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-item {
+    margin-bottom: 24px;
+  }
+}
+
+.footer-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer-item-link {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.015em;
+}
+
+.footer-item-link:hover {
+  text-decoration: underline;
+}
+
+.footer-contact {
+  width: 179px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-contact {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: normal;
+  }
+}
+
+.footer-contact address {
+  font-style: normal;
+}
+
+.footer-contact a {
+  display: inline-block;
+  margin-bottom: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-contact a {
+    margin-bottom: 24px;
+  }
+}
+
+.contact-link {
+  margin-bottom: 14px;
+}
+
+.footer-bottom {
+  align-items: center;
+  color: rgba(251, 251, 251, 0.5);
+  text-decoration: none;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+.footer-policy {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-policy {
+    margin: 0;
+  }
+}
+
+.footer-policy-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: normal;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-policy-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: normal;
+  }
+}
+
+.footer-policy-link:first-child {
+  margin-right: 0;
+}
+
+.footer-separator {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-separator {
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+
+.footer-copyright {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin-left: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-copyright {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: normal;
+  }
+}
+
+.footer-policy-link,
+.footer-separator,
+.footer-copyright {
+  text-decoration: none;
+  color: rgba(251, 251, 251, 0.5) !important;
+  white-space: nowrap;
+}
