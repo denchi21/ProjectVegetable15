@@ -353,7 +353,7 @@
 
   .modal-title {
     line-height: 45px;
-    font-size: 50px;
+    font-size: 42px;
     height: 32px;
     width: 423px;
   }
@@ -398,11 +398,6 @@
     height: 52px;
   }
 
-  .modal-close {
-    top: 8px;
-    right: 8px;
-  }
-
   .modal-input-container {
     width: 423px;
     height: 52px;
@@ -445,7 +440,7 @@
   }
 
   .modal-title {
-    font-size: 55px;
+    font-size: 44px;
     line-height: 45px;
     height: 32px;
     width: 431px;
@@ -475,11 +470,6 @@
   .modal-button {
     width: 158px;
     height: 52px;
-  }
-
-  .modal-close {
-    top: 8px;
-    right: 8px;
   }
 
   .modal-content {
