@@ -3,12 +3,12 @@
     width: 100%;
     box-sizing: border-box;
     padding: 80px 0;
-
 }
 
 .advertisement-container {
     width: 100%;
     min-width: 320px;
+    max-width: 1280px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -46,27 +46,17 @@
     }
 
     .advertisement-container {
-        max-width: 768px;
-        padding-left: 0;
-    }
-}  
-/* Tablet version */
-
-@media (min-width: 768px) {
-    .advertisement-container {
         min-width: 704px;
+        padding-left: 0;
     }
 
     .advertisement-text {
         font-size: 64px;
-        letter-spacing: -0.01em;
-        line-height: 1;
         max-width: 702px;
     }
 
     .advertisement-highlight {
         padding: 8px 10px;
-        position: relative;
         left: -12px;
     }
 }
@@ -74,7 +64,6 @@
 /* DESKTOP */
 @media screen and (min-width: 1280px) {
     .advertisement-container {
-        max-width: 1280px;
         min-height: 228px;
         padding: 0;
     }
@@ -86,7 +75,6 @@
 
     .advertisement-highlight {
         padding: 8px 10px;
-        position: relative;
         left: -13px;
     }
 }
