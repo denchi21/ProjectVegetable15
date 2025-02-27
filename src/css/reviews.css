@@ -1,3 +1,7 @@
+.reviews-cont-sect {
+  background: #fbfbfb;
+}
+
 .reviews {
   display: flex;
   align-items: flex-start;
@@ -5,7 +9,6 @@
   flex-direction: column;
   padding: 80px 20px;
   height: 100%;
-  background: #fbfbfb;
 }
 
 .reviews-title {
@@ -14,7 +17,6 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
-  width: 335px;
   margin-bottom: 40px;
 }
 
