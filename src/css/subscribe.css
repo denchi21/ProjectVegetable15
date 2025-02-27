@@ -254,6 +254,7 @@
   }
 
   .modal-input-container {
+    margin-top: 20px;
     width: 431px;
     height: 52px;
     flex-direction: row;
