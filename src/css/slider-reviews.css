@@ -1,5 +1,9 @@
 /* slider mob */
 
+.reviews-cont-sect {
+  background: #fbfbfb;
+}
+
 @media screen and (max-width: 767px) {
   .container {
     max-width: 375px;

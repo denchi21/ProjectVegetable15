@@ -5,7 +5,6 @@
   flex-direction: column;
   padding: 80px 20px;
   height: 100%;
-  background: #fbfbfb;
 }
 
 .reviews-title {
@@ -14,13 +13,12 @@
   justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
-  width: 335px;
   margin-bottom: 40px;
 }
 
 .reviews-cont-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 47px;
   line-height: 1.08;
   letter-spacing: -0.01em;
   text-transform: uppercase;
