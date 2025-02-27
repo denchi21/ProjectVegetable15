@@ -83,6 +83,9 @@
     outline: none;
 }
 
+.order-textarea:hover,
+.order-textarea:focus,
+.order-input:hover,
 .order-input:focus{
     border-color: #7a3145;
 }
@@ -185,7 +188,8 @@
 }
 
 .socials-link:hover{
-    text-decoration: underline;
+    color: #d4bfc4;
+
 }
 
 
