@@ -20,172 +20,6 @@
   visibility: visible;
   pointer-events: auto;
 }
-/*
-.modal-content {
-  background-color: #fbfbfb;
-  border-radius: 30px;
-  padding: 40px 20px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  text-align: right;
-  top: 250px;
-  left: 167px;
-  gap: 16px;
-  max-width: 600px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  transform: translate(-50%, -50%);
-  width: 335px;
-  height: 538px;
-}
-
-.modal-close {
-  position: absolute;
-  border: none;
-  top: 8px;
-  right: 8px;
-  background: #7a3145;
-  border-radius: 50%;
-  cursor: pointer;
-  font-size: 24px;
-  width: 30px;
-  height: 30px;
-}
-
-.modal-image {
-  width: 431px;
-  height: 201.62px;
-  border-radius: 15px;
-  margin-bottom: 16px;
-}
-
-.modal-title {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 600;
-  letter-spacing: -1.5px;
-  text-align: center;
-  line-height: 30px;
-  font-size: 35px;
-  height: 56px;
-  width: 295px;
-}
-
-.modal-description {
-  font-family: 'Inter Tight', sans-serif;
-  margin: 0 auto;
-  text-align: center;
-  width: 295px;
-  line-height: 20px;
-  font-size: 14px;
-  height: 60px;
-  font-weight: 500;
-  letter-spacing: 0.1em;
-  align-items: center;
-}
-
-.modal-input {
-  color: black;
-  border-radius: 30px;
-  padding: 16px;
-  font-size: 16px;
-  width: 295px;
-  height: 52px;
-  border: 1px solid #858585;
-}
-
-.modal-email-text {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  letter-spacing: -0.02em;
-  color: #141414;
-  margin-bottom: 6px;
-}
-
-.highlight-text {
-  color: #7a3145;
-}
-
-.modal-button {
-  font-family: 'Inter Tight', sans-serif;
-  border-radius: 30px;
-  padding: 16px 32px;
-  background-color: #7a3145;
-  font-weight: 600;
-  line-height: 20px;
-  font-size: 18px;
-  color: #fbfbfb;
-  border: none;
-  cursor: pointer;
-}
-
-.modal-button-text {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 600;
-  width: 94px;
-  height: 20px;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0px;
-  color: #fbfbfb;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-}
-
-.modal-button-text:hover,
-.modal-button-text:focus {
-  background-color: #7a3145;
-}
-
-.green-text {
-  color: #576f35;
-}
-
-.modal-container {
-  display: flex;
-  flex-direction: column;
-  width: 295px;
-  height: 124px;
-  gap: 8px;
-}
-
-.modal-input-container {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  width: 295px;
-  height: auto;
-  flex-direction: column;
-}
-
-.image-container {
-  height: 201.62px;
-  margin: 0 auto;
-  width: 295px;
-}
-
-.images {
-  border-radius: 15px;
-  margin: 0 auto;
-}
-
-.backdrop-button {
-  width: 35px;
-  height: 35px;
-  background-color: transparent;
-  fill: #fbfbfb;
-  gap: 10px;
-  padding: 8px;
-  border-radius: 30px;
-  right: -3px;
-  top: -2.5px;
-  position: absolute;
-}
-*/
 
 .modal-content {
   background-color: #fbfbfb;
@@ -341,10 +175,6 @@
 
 @media screen and (min-width: 768px) {
 
-  .modal-content {
-    max-width: 520px;
-  }
-  
   .modal-container {
     width: 423px;
     height: 108px;
@@ -360,7 +190,7 @@
 
   .modal-description {
     width: 420px;
-    line-height: 24px;
+    line-height: 1.25;
     font-size: 20px;
     height: 60px;
     position: absolute;
@@ -369,22 +199,21 @@
 
   .image-container {
     width: 425px;
-    height: 201.62px;
+    height: 201px;
   }
 
   .images {
     width: 425px;
-    height: 201.62px;
+    height: 201px;
     position: absolute;
     top: 45px;
   }
 
   .modal-content {
-    top: 250px;
     left: 231px;
     gap: 32px;
-    width: 460px;
-    height: 580px;
+    max-width: 527px;
+    min-height: 560px;
     padding: 40px 18px;
   }
 
@@ -413,6 +242,11 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .modal-content {
+    width: 527px;
+    height: 530px;
+  }
+
   .modal-container {
     width: 431px;
     height: 108px;
@@ -452,7 +286,7 @@
     font-size: 23px;
     width: 431px;
     height: 60px;
-    line-height: 20px;
+    line-height: 1.25;
     position: absolute;
     top: 370px;
   }
