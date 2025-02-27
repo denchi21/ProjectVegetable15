@@ -1,0 +1,70 @@
+<div class="backdrop" data-sub>
+  <div class="modal-content">
+    <button
+      class="modal-close"
+      type="button"
+      name="subscribe-close-button"
+      data-sub-close
+    >
+      <svg class="backdrop-button" width="40" height="40">
+        <use href="/img/icons.svg#icon-Defoult2"></use>
+      </svg>
+    </button>
+    <div class="image-container">
+      <div class="images">
+        <picture>
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              /img/subscribe/desk-min.jpg    1x,
+              /img/subscribe/desk@2x-min.jpg 2x
+            "
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              /img/subscribe/tab-min.jpg    1x,
+              /img/subscribe/tab@2x-min.jpg 2x
+            "
+          />
+          <source
+            media="(max-width: 375px)"
+            srcset="
+              /img/subscribe/mob-min.jpg     1x,
+              /img/subscribe/mob1@2x-min.jpg 2x
+            "
+          />
+          <img
+            src="/img/subscribe/mob-min.jpg"
+            class="modal-image"
+            alt="vegetables"
+            width="431"
+            height="201"
+          />
+        </picture>
+      </div>
+    </div>
+    <div class="modal-container">
+      <h2 class="modal-title">
+        STAY UPDATED<span class="green-text"> & SAVE!</span>
+      </h2>
+      <p class="modal-description">
+        Subscribe to our newsletter and get
+        <span class="highlight-text"
+          >exclusive discounts, fresh recipes, and the latest updates</span
+        >
+        on our organic vegetable baskets!
+      </p>
+    </div>
+    <form class="modal-form">
+      <div class="modal-input-container">
+        <input type="email" class="modal-input" placeholder="Your Email" />
+        <button type="submit" class="modal-button" name="subscribe-button">
+          <span class="modal-button-text">SUBSCRIBE</span>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="../js/subscribe.js"></script>

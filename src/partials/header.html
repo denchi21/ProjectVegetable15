@@ -2,7 +2,7 @@
 <header class="header">
   <div class="container wrapper-header">
     <div class="logo-wrapper">
-      <a class="logo-link" href="./index.html">
+      <a class="logo-link" href="./index.html" name="go-to-start-logo">
         <svg class="logo-link-svg">
           <use href="/img/icons.svg#icon-logo"></use>
         </svg>
@@ -15,18 +15,30 @@
           <a class="header-menu-link" href="#works">How It Works</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="">Vegetables</a>
+          <a class="header-menu-link" href="#vegetables-section">Vegetables</a>
         </li>
         <li class="header-menu-item">
-          <a class="header-menu-link" href="">Reviews</a>
+          <a class="header-menu-link" href="#reviews">Reviews</a>
         </li>
       </ul>
-      <button class="header-btn" type="button">Shop now</button>
+      <button
+        class="header-btn"
+        type="button"
+        onclick="location.href='#your-order'"
+        name="shop-now-button"
+      >
+        Shop now
+      </button>
     </nav>
 
-    <button class="burger-btn" type="button" data-menu-open>
+    <button
+      class="burger-btn"
+      type="button"
+      name="open-mobile-menu-button"
+      data-mobile-open
+    >
       <svg class="burger-icon">
-        <use href="../img/icons.svg#icon-burger"></use>
+        <use href="/img/icons.svg#icon-burger"></use>
       </svg>
     </button>
   </div>
@@ -34,27 +46,41 @@
   <!-- mobile menu -->
   <div class="mobile-menu" data-menu>
     <div class="container mobile-menu-container">
-      <button class="mobile-menu-close" type="button" data-menu-close>
+      <button
+        class="mobile-menu-close"
+        type="button"
+        name="close-mobmenu-button"
+        data-mobile-close
+      >
         <svg class="mobile-closed-svg" width="32" height="32">
-          <use href="../img/icons.svg#icon-close"></use>
+          <use href="/img/icons.svg#icon-close"></use>
         </svg>
       </button>
       <nav class="mobile-nav">
         <ul class="mobile-menu-list">
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link active-link" href="./index.html"
+            <a class="mobile-menu-link active-link" href="#works"
               >How It Works</a
             >
           </li>
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="">Vegetables</a>
+            <a class="mobile-menu-link" href="#vegetables-section"
+              >Vegetables</a
+            >
           </li>
           <li class="mobile-menu-item">
-            <a class="mobile-menu-link" href="">Reviews</a>
+            <a class="mobile-menu-link" href="#reviews">Reviews</a>
           </li>
         </ul>
       </nav>
-      <button class="mobile-btn" type="button">Shop now</button>
+      <button
+        class="mobile-btn"
+        type="button"
+        onclick="location.href='#your-order'"
+        name="shop-now-button"
+      >
+        Shop now
+      </button>
     </div>
   </div>
 

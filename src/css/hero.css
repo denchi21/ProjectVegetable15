@@ -1,0 +1,117 @@
+.container-hero {
+    background-color: #576F35;
+}
+
+.hero-info {
+    padding: 48px 20px 40px 20px;
+    min-width: 320px;
+    max-width: 375px;
+    gap: 20px;
+}
+
+.image-hero {
+    width: 100%;
+}
+
+.hero-container {
+    background-image: url("../img/hero/background-hero1xMobile.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-width: 320px;
+    max-width: 375px;
+    padding-bottom: 300px;
+    margin: 0 auto
+}
+
+.text-organic-hero {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1;
+    letter-spacing: -0.015em;
+    text-transform: uppercase;
+    color: #FBFBFB;
+    margin-bottom: 20px;
+}
+
+.p-hero {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.42;
+    color: #FBFBFB;
+}
+
+@media screen and (min-width: 768px) {
+
+    .container-hero {
+        padding: 0;
+    }
+    
+    .text-organic-hero {
+        line-height: 1;
+        font-size: 76px;
+        margin-bottom: 24px;
+    }
+
+    .p-hero {
+        font-size: 16px;
+    }
+
+    .hero-info {
+        padding: 48px 32px 52px 32px;
+        min-width: 768px;
+        gap: 24px;
+    }
+
+    .hero-container {
+        background-image: url("../img/hero/background-hero1xTablet.jpg");
+        min-width: 768px;
+        padding-bottom: 536px;
+    }
+}
+
+@media (min-width: 1280px) {
+
+    .text-organic-hero {
+        margin-bottom: 120px;
+    }
+
+    .hero-info {
+        padding: 148px 38px 52px 100px;
+        min-width: 640px;
+        gap: 128px;
+    }
+        
+    .hero-container {
+        background-image: url("../img/hero/background-hero1xDesktop.jpg");
+        min-width: 1280px;
+        padding-right: 640px;
+        background-position: right;
+        padding-bottom: 0;
+        background-size: 640px;
+    }
+}
+
+/* min-resolution */
+
+@media (min-width: 320px) and (min-resolution: 2x) {
+    .hero-container {
+        min-width: 320px;
+        background-image: url("../img/hero/background-hero@2xMobile.jpg");
+    }
+}
+
+@media (min-width: 768px) and (min-resolution: 2x) {
+    .hero-container {
+        min-width: 768px;
+        background-image: url("../img/hero/background-hero@2xTablet.jpg");
+    }
+}
+
+@media (min-width: 1280px) and (min-resolution: 2x) {
+    .hero-container {
+        min-width: 1280px;
+        background-image: url("../img/hero/background-hero@2xDesktop.jpg");
+        background-size: 640px;
+    }
+}
