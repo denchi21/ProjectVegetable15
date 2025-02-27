@@ -142,9 +142,13 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
-    padding: 100px;
+    padding: 0 100px;
   }
 
+  .reviews {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .reviews-cont-item {
     width: 344px;
   }
