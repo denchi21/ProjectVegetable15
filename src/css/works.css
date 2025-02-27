@@ -1,3 +1,7 @@
+.works{
+background-color: #576F35;
+}
+
 .container.works-wrap{
 padding: 0;
 }
@@ -16,7 +20,6 @@ padding: 40px 20px;
 .works-foto-image {
 border-radius: 30px;
 }
-
 
 .works-describe {
 background-color: #576F35;
@@ -49,7 +52,6 @@ margin-top: 40px;
 counter-reset: step-counter;
 }
 
-
 .works-steps-list {
 list-style: none;
 padding-left: 0;
@@ -58,7 +60,7 @@ margin: 0;
 
 .works-steps-list-item {
 max-width: 375px;
-min-height: 76px;
+min-height: 84px;
 border-radius: 15px;
 margin-bottom: 20px;
 padding: 12px 0;
@@ -66,6 +68,10 @@ background-color: #FBFBFB;
 counter-increment: step-counter;
 position: relative;
 align-content: center;
+padding-left: 100px;
+padding-right: 27px;
+padding-bottom: 12px;
+padding-top: 12px;
 }
 
 .works-steps-list-item::before {
@@ -95,12 +101,12 @@ margin-bottom: 0;
 }
 
 .works-steps-list-text {
-max-width: 208px;
+min-width: 208px;
 font-weight: 500;
 font-size: 14px;
 line-height: 143%;
 color: #858585;
-margin-left: 100px;
+
 }
 
 .works-steps-bold {
@@ -129,19 +135,11 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.sub-open-button-text {
-font-weight: 600;
-width: 94px;
-height: 20px;
-font-size: 18px;
-line-height: 20px;
-letter-spacing: 0px;
-color: #fbfbfb;
-text-align: center;
-display: flex;
-justify-content: center;
-align-items: center;
-margin: auto;
+.sub-open-button:active,
+.sub-open-button:focus,
+.sub-open-button:hover{
+background-color: #D4BFC4;
+color: #7a3145;
 }
 
 @media screen and (min-width: 768px) {
@@ -177,11 +175,16 @@ margin-top: 52px;
 
 .works-steps-list-item{
 max-width: 440px;
+min-height: 76px;
 margin-bottom: 24px;
+padding-right: 15px;
+padding-bottom: 6px;
+padding-top: 6px;
 }
 
 .works-steps-list-text {
-max-width: 325px;
+min-width: 325px;
+
 font-size: 16px;
 }
 
@@ -208,11 +211,13 @@ margin-top: 104px;
 
 .works-steps-list-item {
 min-width: 440px;
-padding: 12px 17px 12px 0;     
+padding-bottom: 18px;
+padding-top: 18px;
 }
 
 .works-steps-list-text {
-max-width: 325px;
+min-width: 325px;
+
 font-size: 16px;
 line-height: 125%;
 }
