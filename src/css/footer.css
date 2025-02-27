@@ -1,11 +1,10 @@
 /* Контейнер Footer */
-
 .footer {
   display: flex;
   flex-direction: column;
   color: #fbfbfb;
   background: #7a3145;
-  padding: 40px 20px;
+  padding: 40px 0;
 }
 @media screen and (min-width: 768px) {
   .footer {
