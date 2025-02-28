@@ -6,12 +6,13 @@
   background: #7a3145;
   padding: 40px 0;
 }
-
+.contact-link:hover,
 .footer-item-link:hover {
   background-color: #D4BFC4;
   color: #7A3145;
 }
-
+.contact-link:active,
+.contact-link:focus,
 .footer-item-link:active,
 .footer-item-link:focus {
   background-color: #FBFBFB;
