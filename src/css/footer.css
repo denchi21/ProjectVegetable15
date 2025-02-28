@@ -6,6 +6,18 @@
   background: #7a3145;
   padding: 40px 0;
 }
+
+.footer-item-link:hover {
+  background-color: #D4BFC4;
+  color: #7A3145;
+}
+
+.footer-item-link:active,
+.footer-item-link:focus {
+  background-color: #FBFBFB;
+  color: #7A3145;
+}
+
 @media screen and (min-width: 768px) {
   .footer {
     padding: 32px 0;
