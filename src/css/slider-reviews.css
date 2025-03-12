@@ -1,0 +1,116 @@
+/* slider mob */
+
+.reviews-cont-sect {
+  background: #fbfbfb;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 375px;
+  }
+
+  .slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 335px;
+    overflow: visible;
+  }
+
+  .slider {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .slide {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .slider-controls {
+    display: flex;
+    position: absolute;
+    overflow: visible;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    column-gap: 15px;
+  }
+
+  .slider-controls a {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #576f35;
+    transition: 0.5s;
+  }
+
+  .slider-controls a:hover {
+    opacity: 0.5;
+  }
+}
+
+/* slider tab */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .slider-container {
+    position: relative;
+    width: 100%;
+    max-width: 704px;
+    overflow: visible;
+  }
+
+  .slider {
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .slide {
+    flex: 0 0 50%;
+    max-width: 340px;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+
+  .slider-controls {
+    display: flex;
+    position: absolute;
+    overflow: visible;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    column-gap: 15px;
+  }
+
+  .slider-controls a {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #576f35;
+    transition: 0.5s;
+  }
+
+  .slider-controls a:hover {
+    opacity: 0.5;
+  }
+}

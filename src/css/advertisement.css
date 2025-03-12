@@ -2,11 +2,14 @@
 .advertisement {
     display: block;
     width: 100%;
-    max-width: 375px;
-    min-height: 472px;
-    padding: 80px 20px;
     margin: 0 auto;
 }
+
+.advertisement-container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
 
 .advertisement-text {
     display: block;
@@ -30,16 +33,14 @@
 
 /* Tablet version */
 @media (min-width: 768px) {
-    .advertisement {
-        max-width: 704px;
-        min-height: 288px;
-        padding: 80px 24px;
+    .advertisement-container {
+        min-width: 704px;
     }
 
     .advertisement-text {
         font-size: 64px;
         line-height: 1;
-        max-width: 704px;
+        max-width: 675px;
     }
 
     .advertisement-highlight {
@@ -55,7 +56,11 @@
         min-height: 228px;
         padding: 0;
     }
+    .advertisement-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
 
+    }
     .advertisement-text {
         font-size: 76px;
         max-width: 1044px;
